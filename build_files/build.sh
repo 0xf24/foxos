@@ -23,7 +23,7 @@ dnf5 -y install niri gdm xwayland-satellite
 dnf5 -y install xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring
 
 # utils
-dnf5 -y distrobox micro tailscale fuzzel podman
+dnf5 -y install distrobox micro tailscale fuzzel podman
 
 # apps
 dnf5 -y install firefox nautilus kitty mpv 1password
